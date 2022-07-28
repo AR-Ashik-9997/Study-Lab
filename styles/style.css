@@ -10,26 +10,25 @@
   .carousel-item h1 {
     font-size: 2.5rem;
   }
-  .courses-button{
+  .courses-button {
     width: 15%;
   }
 }
-.courses-button-lg{
+.courses-button-lg {
   width: 10%;
 }
 
-@media screen and (max-width:767px) {
-    .carousel-item img {
-        height: 500px;
-        object-fit: cover;
-        object-position: center;
-      }
-      .courses-button{
-        width: 30%;
-      }
+@media screen and (max-width: 767px) {
+  .carousel-item img {
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+  }
+  .courses-button {
+    width: 30%;
+  }
 }
 
-.card-img{
+.card-img {
   width: 10%;
 }
-
